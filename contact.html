@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Novon Technologies</title>
+<meta name="description" content="Get in touch with Novon Technologies to talk about your next IT consulting project.">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ===== Navbar ===== -->
+<header class="navbar">
+  <div class="container">
+    <a href="index.html" class="brand">Novon<span class="dot">.</span>Technologies</a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+    <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+  </div>
+</header>
+
+<!-- ===== Page header ===== -->
+<section class="page-header">
+  <div class="container">
+    <div class="eyebrow">Contact</div>
+    <h1>Let's talk about your project.</h1>
+    <p class="lede">Send a few details about what you're working on and we'll get back to you shortly.</p>
+  </div>
+</section>
+
+<!-- ===== Contact form + info ===== -->
+<section class="section">
+  <div class="container">
+    <div class="grid grid-2" style="gap: 56px; align-items: start;">
+
+      <!-- Form: replace YOUR_ACCESS_KEY_HERE with a free Web3Forms access key before launch -->
+      <form class="card reveal" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+        <input type="hidden" name="subject" value="New inquiry from Novon Technologies website">
+        <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
+
+        <div class="form-grid">
+          <div class="field">
+            <label for="name">Full name</label>
+            <input type="text" id="name" name="name" placeholder="Jane Smith" required>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="jane@company.com" required>
+          </div>
+          <div class="field full">
+            <label for="company">Company</label>
+            <input type="text" id="company" name="company" placeholder="Company name">
+          </div>
+          <div class="field full">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell us a bit about what you're working on..." required></textarea>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+        <p class="form-note">We typically respond within 1–2 business days.</p>
+      </form>
+
+      <div class="reveal">
+        <div class="contact-info-list">
+          <div class="contact-info-item">
+            <div class="card-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg>
+            </div>
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:hello@novontechnologies.com">hello@novontechnologies.com</a>
+              <p style="margin-top: 2px; font-size: 13px;">(placeholder — update once the domain is live)</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="card-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.1-7-11a7 7 0 0 1 14 0c0 4.9-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+            </div>
+            <div>
+              <h4>Location</h4>
+              <p>Toronto, Ontario, Canada</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="card-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
+            </div>
+            <div>
+              <h4>Response Time</h4>
+              <p>We respond to all inquiries within 1–2 business days.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== Footer ===== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand">Novon<span class="dot">.</span>Technologies</a>
+        <p>An IT consulting firm helping growing businesses plan, build, and integrate the systems they run on.</p>
+      </div>
+      <div>
+        <h4>Site</h4>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <div class="footer-links">
+          <a href="services.html#strategy">IT Strategy &amp; Roadmapping</a>
+          <a href="services.html#cloud">Cloud Migration</a>
+          <a href="services.html#platforms">Platform Implementation</a>
+          <a href="services.html#ai">AI-Enabled Solutions</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Novon Technologies. All rights reserved.</span>
+      <span>Toronto, Ontario, Canada</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
